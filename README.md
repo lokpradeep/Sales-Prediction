@@ -1,25 +1,56 @@
-
 # Advertising Sales Prediction
 
-Machine Learning project using Linear Regression to predict sales based on:
-- TV advertisements
-- Radio advertisements
-- Newspaper advertisements
+A machine learning project that predicts product sales using advertising spending data across multiple media channels. This project uses a Linear Regression model to analyze how TV, Radio, and Newspaper advertisement budgets influence sales performance.
+
+## Problem Statement
+
+Companies spend money on advertising through different channels. This project predicts sales based on advertising budgets and analyzes the relationship between marketing investment and sales outcomes.
+
+## Dataset Features
+
+- TV advertisement budget
+- Radio advertisement budget
+- Newspaper advertisement budget
+- Sales value
 
 ## Technologies Used
+
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
+- Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
 
-## Model Used
-Linear Regression
+## Machine Learning Model
 
-## Dataset
-Advertising Budget and Sales dataset
+- Linear Regression
 
-# Sales-Prediction
-Machine Learning project using Linear Regression to predict product sales based on TV, Radio, and Newspaper advertising budgets.
+## Project Workflow
 
+1. Data loading and preprocessing
+2. Exploratory Data Analysis
+3. Data visualization
+4. Feature selection
+5. Model training
+6. Model evaluation
+7. Sales prediction
+
+## Project Structure
+
+```text
+Advertising-Sales-Prediction/
+│
+├── Advertising Budget and Sales.csv
+├── Sales Prediction.ipynb
+├── Requirements.txt
+└── README.md
+```
+
+## Key Learnings
+
+- Data preprocessing
+- Exploratory Data Analysis
+- Linear Regression implementation
+- Model evaluation
